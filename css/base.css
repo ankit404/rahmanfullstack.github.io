@@ -173,8 +173,8 @@ iframe {
 /*Basic Styles*/
 
 body {
-    background: #111111;
-    font-family: 'Love Ya Like A Sister', cursive;
+    background: #000000;
+   font-family: 'Raleway', sans-serif;
     color: #cccccc;
     margin: 0;
     font-size: 14px;
@@ -216,7 +216,7 @@ p strong,
 li strong,
 input[type="text"],
 a.link {
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 .hero-content h3,
 .block-ticket .block-price .block-type {
