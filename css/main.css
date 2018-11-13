@@ -1049,7 +1049,7 @@ select.error {
     .title {
         font-size: 28px;
     }
-    .but {
+    .button {
         padding: 11px 25px;
     }
     .block-speaker .block-img {
@@ -1108,7 +1108,7 @@ select.error {
         padding-top: 0;
         padding-bottom: 12px;
     }
-    .but {
+    .button {
         padding: 11px 25px;
     }
     .main-nav li:first-child a {
@@ -1203,7 +1203,7 @@ select.error {
     .title {
         font-size: 28px;
     }
-    .but {
+    .button {
         padding: 11px 25px;
     }
     .block-ticket .block-price {
@@ -1399,7 +1399,7 @@ select.error {
     .block-tickets li {
         display: block;
     }
-    .but {
+    .button {
         padding: 11px 20px;
     }
     .block-tickets.overlap {
