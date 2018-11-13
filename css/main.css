@@ -1,31 +1,7 @@
 
-/* Table of Content
-==================================================
-	1.Preloader
-	2.Site wrapper
-	3.Hero section
-	4.About section
-	5.Speakers section
-	6.Topics section
-	7.Schedule section
-	8.Countdown section
-	9.Tickets section
-	10.Registry section
-	11.Sponsors section
-	12.Contact section
-	13.Accommodation section
-	14.FAQ section
-	15.Gallery section
-	16.Fat footer section
-	17.Mediaqueries
-
-
-
-
-
 /*Preloader*/
 
-@import url('https://fonts.googleapis.com/css?family=Lobster+Two:400,700');
+
 .loader {
     background: #111111;
     bottom: 0;
@@ -135,7 +111,7 @@ canvas {
   }
   .neon{
   color: #1a1a1a;
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Aldrich', sans-serif;
   text-shadow:
     0 0 5px #fff,
     0 0 10px #fff,
@@ -179,6 +155,25 @@ canvas {
 }
 
 
+.line-scroll{position:relative;width:3px;height:150px;left:50%;bottom:70px;margin-left:-1px;overflow:hidden;}
+.line-scroll .line{top:auto;bottom:0px;z-index:11;display:block;position:absolute;left:50%;width:1px;height:80px;margin-left:-1px;background:rgba(254, 192, 6, 1);background:-webkit-linear-gradient(top, rgba(254, 192, 6, 1) 50%, rgba(255, 255, 255, 0) 50%);background:linear-gradient(to bottom, rgba(254, 192, 6, 1) 50%, rgba(255, 255, 255, 0) 50%);background-size:100% 200%;background-position:0 -80px;-moz-transform:translateY(-2px);-o-transform:translateY(-2px);-ms-transform:translateY(-2px);-webkit-transform:translateY(-2px);transform:translateY(-2px);}
+.line-scroll .line.active{animation:line-scroll 3s ease-in-out forwards infinite;}
+@-webkit-keyframes line-scroll{0%{background-position:0 -80px;}
+80%{background-position:0 0px;}
+100%{background-position:0 80px;}
+}
+@-moz-keyframes line-scroll{0%{background-position:0 -80px;}
+80%{background-position:0 0px;}
+100%{background-position:0 80px;}
+}
+@-ms-keyframes line-scroll{0%{background-position:0 -80px;}
+80%{background-position:0 0px;}
+100%{background-position:0 80px;}
+}
+@keyframes line-scroll{0%{background-position:0 -80px;}
+80%{background-position:0 0px;}
+100%{background-position:0 80px;}
+}
 
 
 
