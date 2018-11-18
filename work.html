@@ -22,6 +22,8 @@
   	<link rel="dns-prefetch" href="https://cdn.polyfill.io" />
 
 
+
+
 <!-- Core Style Sheets -->
 <link rel="stylesheet" href="work/assets/css/master.css">
 <!-- Responsive Style Sheets -->
@@ -30,29 +32,19 @@
 <link rel="stylesheet" type="text/css" href="work/revolution/css/settings.css">
 <link rel="stylesheet" type="text/css" href="work/revolution/css/layers.css">
 <link rel="stylesheet" type="text/css" href="work/revolution/css/navigation.css">
-<link rel="stylesheet" type="text/css" href="work/assets/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="work/assets/css/custom-icons.min.css">
-<link rel="stylesheet" type="text/css" href="work/assets/css/icofonts.min.css">
-<link rel="stylesheet" type="text/css" href="work/assets/css/cubeportfolio.css">
-<link rel="stylesheet" type="text/css" href="work/assets/css/bootsnav.css">
-<link rel="stylesheet" type="text/css" href="work/assets/css/slick.css">
-<link rel="stylesheet" type="text/css" href="work/assets/css/animate.css">
-
 <script src="https://cdn.polyfill.io/v2/polyfill.js?features=default,fetch"></script>
-    <script type='text/javascript'>
-    var _vwo_code=(function(){
-	var account_id=6181,
-	settings_tolerance=2000,
-	library_tolerance=2500,
-	use_existing_jquery=false,
-	f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
-	</script>
 
 
 </head>
 <body>
 
-
+<!--== Loader Start ==-->
+<div id="loader-overlay">
+  <div class="loader">
+    <img src="work/assets/images/loader.svg" width="80" alt="">
+  </div>
+</div>
+<!--== Loader End ==-->
 
 <!--== Wrapper Start ==-->
 <div class="wrapper">
@@ -60,31 +52,24 @@
   <!--== Header Start ==-->
   <nav class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full no-border">
   	<!--== Start Top Search ==-->
-    <div class="fullscreen-search-overlay" id="search-overlay"> <a href="#" class="fullscreen-close" id="fullscreen-close-button"><i class="icofont icofont-close"></i></a>
-      <div id="fullscreen-search-wrapper">
-        <form method="get" id="fullscreen-searchform">
-          <input type="text" value="" placeholder="Type and hit Enter..." id="fullscreen-search-input" class="search-bar-top">
-          <i class="fullscreen-search-icon icofont icofont-search">
-          <input value="" type="submit">
-          </i>
-        </form>
-      </div>
-    </div>
+   
     <!--== End Top Search ==-->
     <div class="container">
       <!--== Start Atribute Navigation ==-->
       <div class="attr-nav no-border hidden-xs">
         <ul class="social-media-dark social-top">
           <li><a href="#" class="icofont icofont-social-facebook"></a></li>
-          <li><a href="#" class="icofont icofont-social-instagram"></a></li>
+          <li><a href="#" class="icofont icofont-social-twitter"></a></li>
+          <li><a href="#" class="icofont icofont-social-linkedin"></a></li>
         </ul>
       </div>
       <!--== End Atribute Navigation ==-->
 
       <!--== Start Header Navigation ==-->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="tr-icon ion-android-menu"></i> </button>
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="tr-icon ion-android-menu"></i> </button>
         <div class="logo"> <a href="index.html" style="font-size: 30px;"> INOVOVATE 3.0</a> </div>
+
       </div>
       <!--== End Header Navigation ==-->
 
@@ -92,39 +77,35 @@
       <div class="collapse navbar-collapse" id="navbar-menu">
         <ul class="nav navbar-nav navbar-center" data-in="fadeIn" data-out="fadeOut">
           <li><a class="page-scroll" href="index.html">Home</a></li>
-            
-         
           <li><a class="page-scroll" href="expo.html">Expo</a></li>
           <li><a class="page-scroll" href="tech.html">Tech Talk's</a></li>
           <li><a class="page-scroll" href="comp.html">Competition</a></li>
           <li><a class="page-scroll" href="sponsor.html">Sponsor</a></li>
-           <li><a class="page-scroll" href="team.html">Team</a></li>
+          <li><a class="page-scroll" href="team.html">Team</a></li>
           <li><a class="page-scroll" href="contacts.html">Contact</a></li>
         </ul>
       </div>
+
       <!--== /.navbar-collapse ==-->
     </div>
 
     <!-- Start Side Menu -->
     <div class="side dark-bg">
-    		<a href="index.html" class="logo-side">INOVOVATE 3.0</a>
+    		<a href="index.html" class="logo-side"><img src="work/assets/images/logo-white-sidemenu.png" alt="side-logo"/></a>
             <a href="#" class="close-side"><i class="icofont icofont-close"></i></a>
             <div class="widget mt-120">
               <ul class="link">
-                <li><a class="page-scroll" href="index.html">Home</a></li>
-            
-         
-          <li><a class="page-scroll" href="expo.html">Expo</a></li>
-          <li><a class="page-scroll" href="tech.html">Tech Talk's</a></li>
-          <li><a class="page-scroll" href="comp.html">Competition</a></li>
-          <li><a class="page-scroll" href="sponsor.html">Sponsor</a></li>
-           <li><a class="page-scroll" href="team.html">Team</a></li>
-          <li><a class="page-scroll" href="contacts.html">Contact</a></li>
+               <li><a class="page-scroll" href="index.html">Home</a></li>
+         	   <li><a class="page-scroll" href="expo.html">Expo</a></li>
+          	   <li><a class="page-scroll" href="tech.html">Tech Talk's</a></li>
+               <li><a class="page-scroll" href="comp.html">Competition</a></li>
+               <li><a class="page-scroll" href="sponsor.html">Sponsor</a></li>
+               <li><a class="page-scroll" href="team.html">Team</a></li>
+               <li><a class="page-scroll" href="contacts.html">Contact</a></li>
               </ul>
             </div>
             <ul class="social-media">
               <li><a href="#" class="icofont icofont-social-facebook"></a></li>
-             
               <li><a href="#" class="icofont icofont-social-instagram"></a></li>
             </ul>
      </div>
@@ -317,7 +298,7 @@
 			data-paddingbottom="[0,0,0,0]"
 			data-paddingleft="[30,30,30,20]"
 
-			style="z-index: 13; white-space: nowrap; font-size: 100px; line-height: 100px; font-weight: 600; color: #ffffff; letter-spacing: 30px;font-family:Poppins;">WORK</div>
+			style="z-index: 13; white-space: nowrap; font-size: 100px; line-height: 100px; font-weight: 600; color: #ffffff; letter-spacing: 30px;font-family:Poppins;">WORK </div>
 
 		<!-- LAYER NR. 9 -->
 		<div class="tp-caption   tp-resizeme rs-parallaxlevel-2"
@@ -530,7 +511,7 @@
 
 			data-type="svg"
 			data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":"","speed":"1500","ease":"Power4.easeOut"}]'
-			data-svg_src="assets/images/object/ic_arrow_downward_24px.svg"
+			data-svg_src="work/assets/images/object/ic_arrow_downward_24px.svg"
 			data-svg_idle="sc:transparent;sw:0;sda:0;sdo:0;"
 			data-basealign="slide"
 			data-responsive_offset="on"
@@ -661,7 +642,7 @@
   </section>
   <!--== Hero Slider End ==-->
 
-
+ 
 
   <!--=== What We Do Start ======-->
   <section class="dark-bg lg-section" id="about">
@@ -671,12 +652,11 @@
     <div class="container">
       <div class="col-md-5 col-sm-7">
         <div class="section-title white-color">
-        
           <h1 class="roboto-font text-uppercase">ETHICAL HACKING</h1>
           <hr class="left-line white-bg">
         </div>
         <p>The term "white hat" in Internet slang refers to an ethical computer hacker, or a computer security expert, who specializes in penetration testing and in other testing methodologies that ensures the security of an organization's information systems. Ethical hacking is a term meant to imply a broader category than just penetration testing. Contrasted with black hat, a malicious hacker, the name comes from Western films, where heroic and antagonistic cowboys might traditionally wear a white and a black hat respectively. While a white hat hacker hacks under good intentions with permission, and a black hat hacker has malicious intent, there is a third kind known as a grey hat hacker who hacks with good intentions without permission.</p>
-        <p class="mt-30"><a class="btn btn-lg btn-light-outline btn-square">Venue : CR-2<br>9:00 AM - 11:30 AM</a></p>
+        <p class="mt-30"><a class="btn btn-lg btn-light-outline btn-square">Venue : CR-2 <br>9:00 AM - 11:30 AM</a></p>
       </div>
     </div>
   </section>
@@ -690,16 +670,15 @@
     <div class="container">
       <div class="col-md-5 col-sm-7 col-md-offset-7 col-sm-offset-5">
         <div class="section-title white-color">
-         
-          <h1 class="roboto-font text-uppercase">Satellite, LV</h1>
+          
+          <h1 class="roboto-font text-uppercase">Satellite , LV</h1>
           <hr class="left-line white-bg">
         </div>
         <p>Satellites LV, formerly known as The Satellites in their early rock period (1996–1999), is a Latvian musical group formed in 1996 in Riga, Latvia. The core members of The Satellites are brothers Janis and Edgars Zilde. Other projects and groups related to Satellites LV include Kuba, Mofo, Raadio, Autobuss Debesis, Stāvi, the experimental solo album of Janis Zilde and Augusts IV, the solo EP by Edgars Zilde.</p>
-        <p class="mt-30"><a class="btn btn-lg btn-light-outline btn-square">Venue : CR - 8<br>9:00 AM - 11:30 AM </a></p>
+        <p class="mt-30"><a class="btn btn-lg btn-light-outline btn-square">Venue : CR-8<br>9:00 AM - 11:30 AM</a></p>
       </div>
     </div>
   </section>
-
    <section class="dark-bg lg-section" id="about">
     <div class="col-md-6 col-sm-4 bg-flex bg-flex-right">
       <div class="bg-flex-holder bg-flex-cover" style="background-image: url(work/assets/images/cp.gif);"></div>
@@ -707,18 +686,15 @@
     <div class="container">
       <div class="col-md-5 col-sm-7">
         <div class="section-title white-color">
-          <h1 class="roboto-font text-uppercase">Trademark, Patent, copyright</h1>
+         <h1 class="roboto-font text-uppercase">Trademark, Patent, copyright</h1>
           <hr class="left-line white-bg">
         </div>
-        <p>The Difference Between Copyright and Trademark. While both offer intellectual property protection, they protect different types of assets. Copyright is geared toward literary and artistic works, such as books and videos. A trademark protects items that help define a company brand, such as its logo.</p>
-        <p class="mt-30"><a class="btn btn-lg btn-light-outline btn-square">Venue : CR -3 <br>9:00 AM - 11:30 AM</a></p>
+        <p>The Difference Between Copyright and Trademark. While both offer intellectual property protection, they protect different types of work/assets. Copyright is geared toward literary and artistic works, such as books and videos. A trademark protects items that help define a company brand, such as its logo..</p>
+        <p class="mt-30"><a class="btn btn-lg btn-light-outline btn-square">Venue : CR-3 <br>9:00 AM - 11:30 AM</a></p>
       </div>
     </div>
   </section>
   <!--=== About Us End ======-->
-
- 
- 
 
  
   <!--== Footer Start ==-->
@@ -728,11 +704,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-
-      <div class="pull-left" style="font-size: 18px;">&copy;<br> 2019 </div>
-            <div class="pull-left" style="border-left: 1px solid #757575; padding-left: 10px; margin-left: 10px; line-height: 25px;">
-                <p style="color: #ffc107;">INOVOVATE 3.0<br>All Right Reserved</p>
-            </div>
+            <div class="copy-right text-center">&copy; INOVOVATE 3.0 | All rights reserved</div>
           </div>
         </div>
       </div>
