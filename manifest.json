@@ -1,0 +1,35 @@
+{
+  "short_name": "Inovovate 3.0",
+  "name": "LARGEST TECHNO ENTREPRENEURSHIP FEST OF ODISHA",
+  "icons": [
+    {
+      "src": "/fav/16x16.ico",
+      "sizes": "16x16",
+      "type": "image/ico"
+    },
+    {
+      "src": "/fav/32x32.ico",
+      "sizes": "32x32",
+      "type": "image/ico"
+    },
+    {
+      "src": "/fav/48x48.ico",
+      "sizes": "48x48",
+      "type": "image/ico"
+    },
+    {
+      "src": "/fav/192x192.ico",
+      "sizes": "192x192",
+      "type": "image/ico"
+    },
+    {
+      "src": "/fav/256x256.ico",
+      "sizes": "256x256",
+      "type": "image/ico"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}
